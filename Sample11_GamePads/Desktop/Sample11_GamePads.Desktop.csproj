@@ -95,42 +95,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\dependencies\bass\x64\osx\libbass.dylib">
-      <Link>x64\osx\libbass.dylib</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x64\osx\libbass_fx.dylib">
-      <Link>x64\osx\libbass_fx.dylib</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x64\unix\libbass.so">
-      <Link>x64\unix\libbass.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x64\unix\libbass_fx.so">
-      <Link>x64\unix\libbass_fx.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x86\unix\libbass.so">
-      <Link>x86\unix\libbass.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x86\unix\libbass_fx.so">
-      <Link>x86\unix\libbass_fx.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\sdl2\x64\osx\libSDL2.dylib">
-      <Link>x64\osx\libSDL2.dylib</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\sdl2\x64\unix\libSDL2.so">
-      <Link>x64\unix\libSDL2.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\sdl2\x86\unix\libSDL2.so">
-      <Link>x86\unix\libSDL2.so</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="App.config" />
     <None Include="Content\Manifests\Global.manifest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -169,30 +133,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\dependencies\bass\x64\win32nt\bass.dll">
-      <Link>x64\win32nt\bass.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x64\win32nt\bass_fx.dll">
-      <Link>x64\win32nt\bass_fx.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\sdl2\x64\win32nt\SDL2.dll">
-      <Link>x64\win32nt\SDL2.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x86\win32nt\bass.dll">
-      <Link>x86\win32nt\bass.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\bass\x86\win32nt\bass_fx.dll">
-      <Link>x86\win32nt\bass_fx.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\..\dependencies\sdl2\x86\win32nt\SDL2.dll">
-      <Link>x86\win32nt\SDL2.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <Content Include="uv.ico" />
   </ItemGroup>
   <Import Project="..\Shared\Sample11_GamePads.projitems" Label="Shared" />
