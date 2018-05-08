@@ -131,18 +131,6 @@
     <Reference Include="Ultraviolet.OpenGL">
       <HintPath>..\..\packages\Ultraviolet.OpenGL.2018.5.0.3604\lib\Xamarin.iOS10\Ultraviolet.OpenGL.dll</HintPath>
     </Reference>
-    <Reference Include="Ultraviolet.BASS">
-      <HintPath>bin\iPhone\Debug\Ultraviolet.BASS.dll</HintPath>
-    </Reference>
-    <Reference Include="Ultraviolet.OpenGL.Bindings">
-      <HintPath>bin\iPhone\Debug\Ultraviolet.OpenGL.Bindings.dll</HintPath>
-    </Reference>
-    <Reference Include="Ultraviolet.OpenGL">
-      <HintPath>bin\iPhone\Debug\Ultraviolet.OpenGL.dll</HintPath>
-    </Reference>
-    <Reference Include="Ultraviolet.SDL2">
-      <HintPath>bin\iPhone\Debug\Ultraviolet.SDL2.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Desktop\Properties\AssemblyInfo.cs">
