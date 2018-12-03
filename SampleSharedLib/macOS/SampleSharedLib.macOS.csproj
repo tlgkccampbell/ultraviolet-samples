@@ -119,13 +119,13 @@
       <HintPath>..\..\packages\Microsoft.Extensions.DependencyModel.2.0.4\lib\net451\Microsoft.Extensions.DependencyModel.dll</HintPath>
     </Reference>
     <Reference Include="Ultraviolet.Core">
-      <HintPath>..\..\packages\Ultraviolet.Core.2018.5.0.3594\lib\net47\Ultraviolet.Core.dll</HintPath>
+      <HintPath>..\..\packages\Ultraviolet.Core.2018.10.0.3805\lib\net461\Ultraviolet.Core.dll</HintPath>
     </Reference>
     <Reference Include="Ultraviolet">
-      <HintPath>..\..\packages\Ultraviolet.2018.5.0.3594\lib\net47\Ultraviolet.dll</HintPath>
+      <HintPath>..\..\packages\Ultraviolet.2018.10.0.3805\lib\net461\Ultraviolet.dll</HintPath>
     </Reference>
     <Reference Include="Ultraviolet.Shims.macOS">
-      <HintPath>..\..\packages\Ultraviolet.Shims.macOS.2018.5.0.3594\lib\net45\Ultraviolet.Shims.macOS.dll</HintPath>
+      <HintPath>..\..\packages\Ultraviolet.Shims.macOS.2018.10.0.3805\lib\net45\Ultraviolet.Shims.macOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup />
