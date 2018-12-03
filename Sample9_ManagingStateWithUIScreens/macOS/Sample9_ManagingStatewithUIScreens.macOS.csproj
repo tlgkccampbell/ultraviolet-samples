@@ -8,10 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>UltravioletSample.Sample9_ManagingStatewithUIScreens</RootNamespace>
     <AssemblyName>Sample9_ManagingStatewithUIScreens</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>
+    <UseXamMacFullFramework>true</UseXamMacFullFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

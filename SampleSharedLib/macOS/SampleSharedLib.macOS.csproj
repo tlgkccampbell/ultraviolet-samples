@@ -8,9 +8,10 @@
     <OutputType>Library</OutputType>
     <RootNamespace>SampleSharedLib</RootNamespace>
     <AssemblyName>SampleSharedLib</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <UseXamMacFullFramework>true</UseXamMacFullFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
