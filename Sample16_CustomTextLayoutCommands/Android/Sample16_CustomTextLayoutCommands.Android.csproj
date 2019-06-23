@@ -53,7 +53,7 @@
     <AndroidLinkSkip>
     </AndroidLinkSkip>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>armeabi-v7a</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <Debugger>Xamarin</Debugger>
@@ -71,7 +71,7 @@
     <AndroidLinkSkip />
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <Debugger>Xamarin</Debugger>
