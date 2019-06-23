@@ -13,7 +13,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.7</string>
+	<string>10.9</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcons.appiconset</string>
 </dict>
