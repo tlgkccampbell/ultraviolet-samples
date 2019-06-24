@@ -47,21 +47,21 @@
       <HintPath>..\..\packages\Newtonsoft.Json.11.0.1\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="org.libsdl.app, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.SDL2.Native.2018.10.0.3805\lib\MonoAndroid80\org.libsdl.app.dll</HintPath>
+      <HintPath>..\..\packages\Ultraviolet.SDL2.Native.2019.6.0.4004\lib\MonoAndroid80\org.libsdl.app.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="Ultraviolet, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.2018.10.0.3805\lib\MonoAndroid80\Ultraviolet.dll</HintPath>
+    <Reference Include="Ultraviolet, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.2019.6.0.4004\lib\MonoAndroid80\Ultraviolet.dll</HintPath>
     </Reference>
-    <Reference Include="Ultraviolet.Core, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.Core.2018.10.0.3805\lib\MonoAndroid80\Ultraviolet.Core.dll</HintPath>
+    <Reference Include="Ultraviolet.Core, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.Core.2019.6.0.4004\lib\MonoAndroid80\Ultraviolet.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Ultraviolet.SDL2, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.SDL2.2018.10.0.3805\lib\MonoAndroid80\Ultraviolet.SDL2.dll</HintPath>
+    <Reference Include="Ultraviolet.SDL2, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.SDL2.2019.6.0.4004\lib\MonoAndroid80\Ultraviolet.SDL2.dll</HintPath>
     </Reference>
-    <Reference Include="Ultraviolet.Shims.Android, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.Shims.Android.2018.10.0.3805\lib\MonoAndroid80\Ultraviolet.Shims.Android.dll</HintPath>
+    <Reference Include="Ultraviolet.Shims.Android, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.Shims.Android.2019.6.0.4004\lib\MonoAndroid80\Ultraviolet.Shims.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -82,12 +82,12 @@
   </ItemGroup>
   <Import Project="..\Shared\SampleSharedLib.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
-  <Import Project="..\..\packages\Ultraviolet.SDL2.Native.2018.10.0.3805\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets" Condition="Exists('..\..\packages\Ultraviolet.SDL2.Native.2018.10.0.3805\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets')" />
+  <Import Project="..\..\packages\Ultraviolet.SDL2.Native.2019.6.0.4004\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets" Condition="Exists('..\..\packages\Ultraviolet.SDL2.Native.2019.6.0.4004\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Ultraviolet.SDL2.Native.2018.10.0.3805\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Ultraviolet.SDL2.Native.2018.10.0.3805\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Ultraviolet.SDL2.Native.2019.6.0.4004\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Ultraviolet.SDL2.Native.2019.6.0.4004\build\MonoAndroid80\Ultraviolet.SDL2.Native.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
