@@ -48,14 +48,14 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="Ultraviolet, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.2018.10.0.3805\lib\net461\Ultraviolet.dll</HintPath>
+    <Reference Include="Ultraviolet, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.2019.6.0.4004\lib\net461\Ultraviolet.dll</HintPath>
     </Reference>
-    <Reference Include="Ultraviolet.Core, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.Core.2018.10.0.3805\lib\net461\Ultraviolet.Core.dll</HintPath>
+    <Reference Include="Ultraviolet.Core, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.Core.2019.6.0.4004\lib\net461\Ultraviolet.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Ultraviolet.Shims.Desktop, Version=2018.10.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Ultraviolet.Shims.Desktop.2018.10.0.3805\lib\net461\Ultraviolet.Shims.Desktop.dll</HintPath>
+    <Reference Include="Ultraviolet.Shims.Desktop, Version=2019.6.0.0, Culture=neutral, PublicKeyToken=78da2f4877323311, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ultraviolet.Shims.Desktop.2019.6.0.4004\lib\net461\Ultraviolet.Shims.Desktop.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
