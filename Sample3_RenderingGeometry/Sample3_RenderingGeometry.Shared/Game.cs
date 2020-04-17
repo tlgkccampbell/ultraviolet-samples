@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using sample3_renderinggeometry.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Graphics;

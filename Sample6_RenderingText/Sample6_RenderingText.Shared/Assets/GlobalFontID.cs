@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample6_renderingtext
+namespace sample6_renderingtext.Assets
 {
     public static class GlobalFontID
     {

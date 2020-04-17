@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample8_playingsoundeffects
+namespace sample8_playingsoundeffects.Input
 {
     public static class SampleInput
     {

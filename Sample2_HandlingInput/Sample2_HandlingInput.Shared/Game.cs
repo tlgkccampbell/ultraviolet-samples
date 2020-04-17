@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using sample2_handlinginput.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.OpenGL;

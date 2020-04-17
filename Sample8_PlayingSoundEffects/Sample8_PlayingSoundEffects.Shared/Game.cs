@@ -1,5 +1,7 @@
 using System;
 using System.IO;
+using sample8_playingsoundeffects.Assets;
+using sample8_playingsoundeffects.Input;
 using Ultraviolet;
 using Ultraviolet.Audio;
 using Ultraviolet.BASS;

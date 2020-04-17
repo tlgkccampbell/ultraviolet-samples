@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample4_contentmanagement
+namespace sample4_contentmanagement.Assets
 {
     public static class GlobalTextureID
     {

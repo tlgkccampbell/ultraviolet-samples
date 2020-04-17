@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample2_handlinginput
+namespace sample2_handlinginput.Input
 {
     public static class SampleInput
     {

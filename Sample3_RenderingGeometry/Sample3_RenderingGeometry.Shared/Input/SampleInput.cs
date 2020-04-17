@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample3_renderinggeometry
+namespace sample3_renderinggeometry.Input
 {
     public static class SampleInput
     {

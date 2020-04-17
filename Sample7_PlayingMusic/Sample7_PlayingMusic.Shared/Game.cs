@@ -1,6 +1,8 @@
 using System;
 using System.IO;
 using System.Text;
+using sample7_playingmusic.Assets;
+using sample7_playingmusic.Input;
 using Ultraviolet;
 using Ultraviolet.Audio;
 using Ultraviolet.BASS;

@@ -1,10 +1,11 @@
 using System;
 using System.IO;
+using sample4_contentmanagement.Assets;
+using sample4_contentmanagement.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.Graphics;
-using Ultraviolet.Input;
 using Ultraviolet.OpenGL;
 
 namespace sample4_contentmanagement

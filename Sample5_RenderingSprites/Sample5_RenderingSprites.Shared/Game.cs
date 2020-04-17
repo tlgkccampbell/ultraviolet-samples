@@ -1,5 +1,7 @@
 using System;
 using System.IO;
+using sample5_renderingsprites.Assets;
+using sample5_renderingsprites.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;

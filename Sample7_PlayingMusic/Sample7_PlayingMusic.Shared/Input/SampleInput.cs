@@ -2,7 +2,7 @@
 using Ultraviolet.Input;
 using Ultraviolet.Core;
 
-namespace sample7_playingmusic
+namespace sample7_playingmusic.Input
 {
     public static class SampleInput
     {
