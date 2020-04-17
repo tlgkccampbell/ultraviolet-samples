@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <RootNamespace>sample9_managingstatewithuiscreens</RootNamespace>
+    <AssemblyName>sample9_managingstatewithuiscreens</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove=".template.config\**" />
+    <EmbeddedResource Remove=".template.config\**" />
+    <None Remove=".template.config\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ultraviolet" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.BASS" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.FreeType2" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.OpenGL" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
+  </ItemGroup>
+
+  <Import Project="..\sample9_managingstatewithuiscreens.Shared\sample9_managingstatewithuiscreens.Shared.projitems" Label="Shared" />
+
+</Project>
