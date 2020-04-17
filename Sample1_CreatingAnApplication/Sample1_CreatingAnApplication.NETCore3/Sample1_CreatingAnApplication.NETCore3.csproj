@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <RootNamespace>sample1_creatinganapplication</RootNamespace>
+    <AssemblyName>sample1_creatinganapplication</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove=".template.config\**" />
+    <EmbeddedResource Remove=".template.config\**" />
+    <None Remove=".template.config\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ultraviolet" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.BASS" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.FreeType2" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.OpenGL" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
+  </ItemGroup>
+
+  <Import Project="..\sample1_creatinganapplication.Shared\sample1_creatinganapplication.Shared.projitems" Label="Shared" />
+
+</Project>
