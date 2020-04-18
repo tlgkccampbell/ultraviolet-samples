@@ -1,18 +1,17 @@
 using System;
 using System.IO;
-using sample12_upf.Input;
-using sample12_upf.UI;
-using sample12_upf.UI.Screens;
+using sample13_upfadvanced.Input;
+using sample13_upfadvanced.UI;
+using sample13_upfadvanced.UI.Screens;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.FreeType2;
-using Ultraviolet.Input;
 using Ultraviolet.OpenGL;
 using Ultraviolet.Presentation;
 using Ultraviolet.Presentation.Styles;
 
-namespace sample12_upf
+namespace sample13_upfadvanced
 {
     public partial class Game : UltravioletApplication
     {
@@ -21,7 +20,7 @@ namespace sample12_upf
         { }
 
         public Game(GameFlags flags)
-            : base("Ultraviolet", "Sample 12 - UPF")
+            : base("Ultraviolet", "Sample 13 - UPF (Advanced)")
         {
             this.flags = flags;
         }
@@ -69,7 +68,7 @@ namespace sample12_upf
             {
                 this.screenService = new UIScreenService(content);
 
-                var screen = screenService.Get<ExampleScreen>();
+                var screen = screenService.Get<GameMenuScreen>();
                 Ultraviolet.GetUI().GetScreens().Open(screen);
             }
 
@@ -82,7 +81,7 @@ namespace sample12_upf
             {
                 Exit();
             }
-            
+
             base.OnUpdating(time);
         }
 
