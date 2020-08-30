@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample10_asynchronouscontentloading.Input
+namespace Sample10_AsynchronousContentLoading.Input
 {
     public static class SampleInput
     {

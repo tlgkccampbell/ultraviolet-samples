@@ -2,9 +2,9 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <UltravioletContentDirectory>Content</UltravioletContentDirectory>
-    <UltravioletContentProject>sample12_upf.Shared</UltravioletContentProject>
-    <AssemblyName>sample12_upf</AssemblyName>
-    <RootNamespace>sample12_upf</RootNamespace>
+    <UltravioletContentProject>Sample12_UPF.Shared</UltravioletContentProject>
+    <AssemblyName>Sample12_UPF</AssemblyName>
+    <RootNamespace>Sample12_UPF</RootNamespace>
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -17,7 +17,7 @@
     <TemplateGuid>{122416d6-6b49-4ee2-a1e8-b825f31c79fe}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>sample12_upf</RootNamespace>
+    <RootNamespace>Sample12_UPF</RootNamespace>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
@@ -142,7 +142,7 @@
   <ItemGroup>
     <AndroidAsset Include="Ultraviolet.Presentation.CompiledExpressions.dll" />
   </ItemGroup>
-  <Import Project="..\sample12_upf.Shared\sample12_upf.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample12_UPF.Shared\Sample12_UPF.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="Ultraviolet.Android.targets" />
   <Import Project="Ultraviolet.Android.Presentation.targets" />

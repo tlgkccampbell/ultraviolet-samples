@@ -1,11 +1,11 @@
 ﻿using System;
-using sample13_upfadvanced.UI.Dialogs;
+using Sample13_UPFAdvanced.UI.Dialogs;
 using Ultraviolet;
 using Ultraviolet.Content;
 using Ultraviolet.Core;
 using Ultraviolet.UI;
 
-namespace sample13_upfadvanced.UI.Screens
+namespace Sample13_UPFAdvanced.UI.Screens
 {
     /// <summary>
     /// Represents the primary gameplay screen.

@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample14_loadingimagedatawithsurfaces.Input
+namespace Sample14_LoadingImageDataWithSurfaces.Input
 {
     public static class SampleInput
     {

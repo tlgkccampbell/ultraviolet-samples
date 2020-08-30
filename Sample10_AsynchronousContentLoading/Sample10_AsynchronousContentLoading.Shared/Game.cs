@@ -1,16 +1,16 @@
 using System;
 using System.IO;
-using sample10_asynchronouscontentloading.Assets;
-using sample10_asynchronouscontentloading.Input;
-using sample10_asynchronouscontentloading.UI;
-using sample10_asynchronouscontentloading.UI.Screens;
+using Sample10_AsynchronousContentLoading.Assets;
+using Sample10_AsynchronousContentLoading.Input;
+using Sample10_AsynchronousContentLoading.UI;
+using Sample10_AsynchronousContentLoading.UI.Screens;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.OpenGL;
 
-namespace sample10_asynchronouscontentloading
+namespace Sample10_AsynchronousContentLoading
 {
     public partial class Game : UltravioletApplication
     {

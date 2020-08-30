@@ -6,14 +6,14 @@ using Ultraviolet.Content;
 using Ultraviolet.Core.Text;
 using Ultraviolet.Graphics;
 using System.Text;
-using sample11_gamepads.Assets;
+using Sample11_GamePads.Assets;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.Input;
 using Ultraviolet.OpenGL;
-using sample11_gamepads.Input;
+using Sample11_GamePads.Input;
 
-namespace sample11_gamepads
+namespace Sample11_GamePads
 {
     public partial class Game : UltravioletApplication
     {

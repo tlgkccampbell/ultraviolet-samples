@@ -1,4 +1,4 @@
-﻿namespace sample15_rendertargetsandbuffers
+﻿namespace Sample15_RenderTargetsAndBuffers
 {
     public static class Program
     {

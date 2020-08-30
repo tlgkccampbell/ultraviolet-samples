@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using sample16_customtextlayoutcommands.Assets;
-using sample16_customtextlayoutcommands.Input;
+using Sample16_CustomTextLayoutCommands.Assets;
+using Sample16_CustomTextLayoutCommands.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
@@ -11,7 +11,7 @@ using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.OpenGL;
 
-namespace sample16_customtextlayoutcommands
+namespace Sample16_CustomTextLayoutCommands
 {
     public partial class Game : UltravioletApplication
     {

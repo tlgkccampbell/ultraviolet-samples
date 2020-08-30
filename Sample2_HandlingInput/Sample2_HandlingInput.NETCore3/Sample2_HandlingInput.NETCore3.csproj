@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample2_handlinginput</RootNamespace>
-    <AssemblyName>sample2_handlinginput</AssemblyName>
+    <RootNamespace>Sample2_HandlingInput</RootNamespace>
+    <AssemblyName>Sample2_HandlingInput</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample2_handlinginput.Shared\sample2_handlinginput.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample2_HandlingInput.Shared\Sample2_HandlingInput.Shared.projitems" Label="Shared" />
 
 </Project>

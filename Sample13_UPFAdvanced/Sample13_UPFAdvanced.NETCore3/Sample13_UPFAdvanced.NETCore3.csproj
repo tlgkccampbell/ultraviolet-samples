@@ -6,7 +6,7 @@
     <ApplicationIcon />
     <StartupObject />
     <RootNamespace>uvgame</RootNamespace>
-    <AssemblyName>sample13_upfadvanced</AssemblyName>
+    <AssemblyName>Sample13_UPFAdvanced</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +25,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
   </ItemGroup>
 
-  <Import Project="..\sample13_upfadvanced.Shared\sample13_upfadvanced.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample13_UPFAdvanced.Shared\Sample13_UPFAdvanced.Shared.projitems" Label="Shared" />
 
 </Project>

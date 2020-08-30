@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 
-namespace sample9_managingstatewithuiscreens
+namespace Sample9_ManagingStateWithUIScreens
 {
     [Activity(Label = "Sample 9 - Managing State with UI Screens", MainLauncher = true, ConfigurationChanges =
         ConfigChanges.Orientation |

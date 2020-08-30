@@ -1,4 +1,4 @@
-﻿namespace sample1_creatinganapplication
+﻿namespace Sample1_CreatingAnApplication
 {
     public static class Program
     {

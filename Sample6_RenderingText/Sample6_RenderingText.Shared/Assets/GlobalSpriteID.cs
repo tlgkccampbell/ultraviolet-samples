@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample6_renderingtext.Assets
+namespace Sample6_RenderingText.Assets
 {
     public static class GlobalSpriteID
     {

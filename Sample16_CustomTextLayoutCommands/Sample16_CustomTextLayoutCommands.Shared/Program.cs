@@ -1,4 +1,4 @@
-﻿namespace sample16_customtextlayoutcommands
+﻿namespace Sample16_CustomTextLayoutCommands
 {
     public static class Program
     {

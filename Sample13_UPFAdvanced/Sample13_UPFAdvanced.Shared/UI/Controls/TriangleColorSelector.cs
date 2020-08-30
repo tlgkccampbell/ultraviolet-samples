@@ -4,7 +4,7 @@ using Ultraviolet;
 using Ultraviolet.Presentation;
 using Ultraviolet.Presentation.Controls;
 
-namespace sample13_upfadvanced.UI.Controls
+namespace Sample13_UPFAdvanced.UI.Controls
 {
     /// <summary>
     /// Represents a control which allows the user to pick a color for one of a displayed triangle's vertices.

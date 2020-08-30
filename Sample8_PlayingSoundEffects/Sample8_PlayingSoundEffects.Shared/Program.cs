@@ -1,4 +1,4 @@
-﻿namespace sample8_playingsoundeffects
+﻿namespace Sample8_PlayingSoundEffects
 {
     public static class Program
     {

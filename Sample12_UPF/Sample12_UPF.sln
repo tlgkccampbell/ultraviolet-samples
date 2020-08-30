@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "sample12_upf.Shared", "sample12_upf.Shared\sample12_upf.Shared.shproj", "{3E1C0C3C-1967-4AC7-BE58-636F7C8F9E56}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sample12_UPF.Shared", "Sample12_UPF.Shared\Sample12_UPF.Shared.shproj", "{3E1C0C3C-1967-4AC7-BE58-636F7C8F9E56}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sample12_upf.NETCore3", "sample12_upf.NETCore3\sample12_upf.NETCore3.csproj", "{AFBA0780-A3DA-45AB-9585-AA5764C60B31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample12_UPF.NETCore3", "Sample12_UPF.NETCore3\Sample12_UPF.NETCore3.csproj", "{AFBA0780-A3DA-45AB-9585-AA5764C60B31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample12_upf.Android", "sample12_upf.Android\sample12_upf.Android.csproj", "{7BC11524-770B-41E5-A076-F37EB84C3A67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample12_UPF.Android", "Sample12_UPF.Android\Sample12_UPF.Android.csproj", "{7BC11524-770B-41E5-A076-F37EB84C3A67}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AFBA0780-A3DA-45AB-9585-AA5764C60B31} = {AFBA0780-A3DA-45AB-9585-AA5764C60B31}
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		sample12_upf.Shared\sample12_upf.Shared.projitems*{3e1c0c3c-1967-4ac7-be58-636f7c8f9e56}*SharedItemsImports = 13
-		sample12_upf.Shared\sample12_upf.Shared.projitems*{7bc11524-770b-41e5-a076-f37eb84c3a67}*SharedItemsImports = 4
-		sample12_upf.Shared\sample12_upf.Shared.projitems*{afba0780-a3da-45ab-9585-aa5764c60b31}*SharedItemsImports = 5
+		Sample12_UPF.Shared\Sample12_UPF.Shared.projitems*{3e1c0c3c-1967-4ac7-be58-636f7c8f9e56}*SharedItemsImports = 13
+		Sample12_UPF.Shared\Sample12_UPF.Shared.projitems*{7bc11524-770b-41e5-a076-f37eb84c3a67}*SharedItemsImports = 4
+		Sample12_UPF.Shared\Sample12_UPF.Shared.projitems*{afba0780-a3da-45ab-9585-aa5764c60b31}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

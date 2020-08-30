@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample6_renderingtext</RootNamespace>
-    <AssemblyName>sample6_renderingtext</AssemblyName>
+    <RootNamespace>Sample6_RenderingText</RootNamespace>
+    <AssemblyName>Sample6_RenderingText</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample6_renderingtext.Shared\sample6_renderingtext.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample6_RenderingText.Shared\Sample6_RenderingText.Shared.projitems" Label="Shared" />
 
 </Project>

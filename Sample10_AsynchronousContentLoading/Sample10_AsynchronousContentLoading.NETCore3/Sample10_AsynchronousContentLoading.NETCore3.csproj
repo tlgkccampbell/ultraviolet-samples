@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample10_asynchronouscontentloading</RootNamespace>
-    <AssemblyName>sample10_asynchronouscontentloading</AssemblyName>
+    <RootNamespace>Sample10_AsynchronousContentLoading</RootNamespace>
+    <AssemblyName>Sample10_AsynchronousContentLoading</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample10_asynchronouscontentloading.Shared\sample10_asynchronouscontentloading.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample10_AsynchronousContentLoading.Shared\Sample10_AsynchronousContentLoading.Shared.projitems" Label="Shared" />
 
 </Project>

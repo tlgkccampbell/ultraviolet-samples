@@ -1,4 +1,4 @@
-﻿namespace sample10_asynchronouscontentloading
+﻿namespace Sample10_AsynchronousContentLoading
 {
     public static class Program
     {

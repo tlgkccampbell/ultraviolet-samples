@@ -2,7 +2,7 @@
 using Ultraviolet;
 using Ultraviolet.Core;
 
-namespace sample13_upfadvanced.UI.Controls
+namespace Sample13_UPFAdvanced.UI.Controls
 {
     /// <summary>
     /// Represents one of the vertex colors that is available for selection in a <see cref="TriangleColorSelector"/> control.

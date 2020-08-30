@@ -3,7 +3,7 @@
   DefaultOpenTransitionDuration="500.0"
   DefaultCloseTransitionDuration="500.0">
   <StyleSheet>EscMenuDialogStyles</StyleSheet>
-  <View Class="msgbox" ViewModelType="sample13_upfadvanced.UI.Dialogs.EscMenuDialog+DialogScreenVM, sample13_upfadvanced">
+  <View Class="msgbox" ViewModelType="Sample13_UPFAdvanced.UI.Dialogs.EscMenuDialog+DialogScreenVM, Sample13_UPFAdvanced">
 
     <Rectangle Class="msgbox-fade"/>
     <Grid Class="msgbox-box" HorizontalAlignment="Center" VerticalAlignment="Center">

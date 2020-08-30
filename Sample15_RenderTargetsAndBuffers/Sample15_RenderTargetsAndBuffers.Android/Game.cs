@@ -7,7 +7,7 @@ using Android.Webkit;
 using Ultraviolet.Graphics;
 using AndroidEnvironment = Android.OS.Environment;
 
-namespace sample15_rendertargetsandbuffers
+namespace Sample15_RenderTargetsAndBuffers
 {
 	[Activity(Label = "Sample 15 - Render Targets and Buffers", MainLauncher = true, ConfigurationChanges =
         ConfigChanges.Orientation |

@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample4_contentmanagement</RootNamespace>
-    <AssemblyName>sample4_contentmanagement</AssemblyName>
+    <RootNamespace>Sample4_ContentManagement</RootNamespace>
+    <AssemblyName>Sample4_ContentManagement</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample4_contentmanagement.Shared\sample4_contentmanagement.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample4_ContentManagement.Shared\Sample4_ContentManagement.Shared.projitems" Label="Shared" />
 
 </Project>

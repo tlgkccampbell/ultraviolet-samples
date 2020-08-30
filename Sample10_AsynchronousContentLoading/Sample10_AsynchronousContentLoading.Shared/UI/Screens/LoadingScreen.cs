@@ -1,5 +1,5 @@
 ﻿using System;
-using sample10_asynchronouscontentloading.Assets;
+using Sample10_AsynchronousContentLoading.Assets;
 using Ultraviolet;
 using Ultraviolet.Content;
 using Ultraviolet.Core;
@@ -8,7 +8,7 @@ using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.UI;
 
-namespace sample10_asynchronouscontentloading.UI.Screens
+namespace Sample10_AsynchronousContentLoading.UI.Screens
 {
     public class LoadingScreen : UIScreen
     {

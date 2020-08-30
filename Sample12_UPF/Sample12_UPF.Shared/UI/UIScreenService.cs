@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using sample12_upf.UI.Screens;
+using Sample12_UPF.UI.Screens;
 using Ultraviolet;
 using Ultraviolet.Content;
 using Ultraviolet.Core;
 using Ultraviolet.UI;
 
-namespace sample12_upf.UI
+namespace Sample12_UPF.UI
 {
     /// <summary>
     /// Represents a service which provides instances of UI screen types upon request.

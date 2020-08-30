@@ -1,4 +1,4 @@
-﻿namespace sample9_managingstatewithuiscreens
+﻿namespace Sample9_ManagingStateWithUIScreens
 {
     public static class Program
     {

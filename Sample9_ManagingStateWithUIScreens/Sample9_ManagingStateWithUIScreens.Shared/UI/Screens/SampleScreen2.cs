@@ -1,5 +1,5 @@
 ﻿using System;
-using sample9_managingstatewithuiscreens.Assets;
+using Sample9_ManagingStateWithUIScreens.Assets;
 using Ultraviolet;
 using Ultraviolet.Content;
 using Ultraviolet.Core;
@@ -9,7 +9,7 @@ using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.Input;
 using Ultraviolet.UI;
 
-namespace sample9_managingstatewithuiscreens.UI.Screens
+namespace Sample9_ManagingStateWithUIScreens.UI.Screens
 {
     public class SampleScreen2 : UIScreen
     {

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using sample5_renderingsprites.Assets;
-using sample5_renderingsprites.Input;
+using Sample5_RenderingSprites.Assets;
+using Sample5_RenderingSprites.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
@@ -9,7 +9,7 @@ using Ultraviolet.Graphics;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.OpenGL;
 
-namespace sample5_renderingsprites
+namespace Sample5_RenderingSprites
 {
     public partial class Game : UltravioletApplication
     {

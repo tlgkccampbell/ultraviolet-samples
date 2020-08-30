@@ -4,9 +4,9 @@ using Ultraviolet;
 using Ultraviolet.Content;
 using Ultraviolet.Core;
 using Ultraviolet.UI;
-using sample13_upfadvanced.UI.Screens;
+using Sample13_UPFAdvanced.UI.Screens;
 
-namespace sample13_upfadvanced.UI
+namespace Sample13_UPFAdvanced.UI
 {
     /// <summary>
     /// Represents a service which provides instances of UI screen types upon request.

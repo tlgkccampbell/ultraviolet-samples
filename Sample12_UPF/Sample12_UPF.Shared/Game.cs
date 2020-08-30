@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using sample12_upf.Input;
-using sample12_upf.UI;
-using sample12_upf.UI.Screens;
+using Sample12_UPF.Input;
+using Sample12_UPF.UI;
+using Sample12_UPF.UI.Screens;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
@@ -12,7 +12,7 @@ using Ultraviolet.OpenGL;
 using Ultraviolet.Presentation;
 using Ultraviolet.Presentation.Styles;
 
-namespace sample12_upf
+namespace Sample12_UPF
 {
     public partial class Game : UltravioletApplication
     {

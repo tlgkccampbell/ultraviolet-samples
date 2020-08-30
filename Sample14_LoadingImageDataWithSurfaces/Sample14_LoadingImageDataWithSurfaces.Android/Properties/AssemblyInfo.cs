@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("sample14_loadingimagedatawithsurfaces.Android")]
+[assembly: AssemblyTitle("Sample14_LoadingImageDataWithSurfaces.Android")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("sample14_loadingimagedatawithsurfaces.Android")]
+[assembly: AssemblyProduct("Sample14_LoadingImageDataWithSurfaces.Android")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

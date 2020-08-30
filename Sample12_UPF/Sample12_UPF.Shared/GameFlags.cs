@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample12_upf
+namespace Sample12_UPF
 {
     [Flags]
     public enum GameFlags

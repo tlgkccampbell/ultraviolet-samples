@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample3_renderinggeometry</RootNamespace>
-    <AssemblyName>sample3_renderinggeometry</AssemblyName>
+    <RootNamespace>Sample3_RenderingGeometry</RootNamespace>
+    <AssemblyName>Sample3_RenderingGeometry</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample3_renderinggeometry.Shared\sample3_renderinggeometry.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample3_RenderingGeometry.Shared\Sample3_RenderingGeometry.Shared.projitems" Label="Shared" />
 
 </Project>

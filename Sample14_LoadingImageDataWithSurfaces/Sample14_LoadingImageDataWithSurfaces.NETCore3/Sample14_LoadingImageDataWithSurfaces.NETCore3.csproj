@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample14_loadingimagedatawithsurfaces</RootNamespace>
-    <AssemblyName>sample14_loadingimagedatawithsurfaces</AssemblyName>
+    <RootNamespace>Sample14_LoadingImageDataWithSurfaces</RootNamespace>
+    <AssemblyName>Sample14_LoadingImageDataWithSurfaces</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
   </ItemGroup>
 
-  <Import Project="..\sample14_loadingimagedatawithsurfaces.Shared\sample14_loadingimagedatawithsurfaces.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample14_LoadingImageDataWithSurfaces.Shared\Sample14_LoadingImageDataWithSurfaces.Shared.projitems" Label="Shared" />
 
 </Project>

@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample11_gamepads</RootNamespace>
-    <AssemblyName>sample11_gamepads</AssemblyName>
+    <RootNamespace>Sample11_GamePads</RootNamespace>
+    <AssemblyName>Sample11_GamePads</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample11_gamepads.Shared\sample11_gamepads.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample11_GamePads.Shared\Sample11_GamePads.Shared.projitems" Label="Shared" />
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace sample7_playingmusic
+﻿namespace Sample7_PlayingMusic
 {
     public static class Program
     {

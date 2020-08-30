@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample9_managingstatewithuiscreens.Assets
+namespace Sample9_ManagingStateWithUIScreens.Assets
 {
     public static class GlobalTextureID
     {

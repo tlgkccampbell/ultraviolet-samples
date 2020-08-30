@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace sample12_upf
+namespace Sample12_UPF
 {
     public static class Program
     {

@@ -3,7 +3,7 @@ using Ultraviolet.Content;
 using Ultraviolet.Core;
 using Ultraviolet.UI;
 
-namespace sample13_upfadvanced.UI.Dialogs
+namespace Sample13_UPFAdvanced.UI.Dialogs
 {
     partial class EscMenuDialog
     {

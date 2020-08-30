@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample5_renderingsprites.Input
+namespace Sample5_RenderingSprites.Input
 {
     public static class SampleInput
     {

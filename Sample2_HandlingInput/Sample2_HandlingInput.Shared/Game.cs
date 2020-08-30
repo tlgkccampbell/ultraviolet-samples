@@ -1,11 +1,11 @@
 using System;
 using System.IO;
-using sample2_handlinginput.Input;
+using Sample2_HandlingInput.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.OpenGL;
 
-namespace sample2_handlinginput
+namespace Sample2_HandlingInput
 {
     public partial class Game : UltravioletApplication
     {

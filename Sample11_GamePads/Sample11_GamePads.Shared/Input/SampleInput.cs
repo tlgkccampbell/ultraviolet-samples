@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample11_gamepads.Input
+namespace Sample11_GamePads.Input
 {
     public static class SampleInput
     {

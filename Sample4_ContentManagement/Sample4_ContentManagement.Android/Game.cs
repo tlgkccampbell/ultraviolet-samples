@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 
-namespace sample4_contentmanagement
+namespace Sample4_ContentManagement
 {
     [Activity(Label = "Sample 4 - Content Management", MainLauncher = true, ConfigurationChanges =
         ConfigChanges.Orientation |

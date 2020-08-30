@@ -1,4 +1,4 @@
-﻿namespace sample4_contentmanagement
+﻿namespace Sample4_ContentManagement
 {
     public static class Program
     {

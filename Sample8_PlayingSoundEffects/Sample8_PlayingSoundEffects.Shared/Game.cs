@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using sample8_playingsoundeffects.Assets;
-using sample8_playingsoundeffects.Input;
+using Sample8_PlayingSoundEffects.Assets;
+using Sample8_PlayingSoundEffects.Input;
 using Ultraviolet;
 using Ultraviolet.Audio;
 using Ultraviolet.BASS;
@@ -13,7 +13,7 @@ using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.Input;
 using Ultraviolet.OpenGL;
 
-namespace sample8_playingsoundeffects
+namespace Sample8_PlayingSoundEffects
 {
     public partial class Game : UltravioletApplication
     {

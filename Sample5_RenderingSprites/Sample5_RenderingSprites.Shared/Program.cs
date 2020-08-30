@@ -1,4 +1,4 @@
-﻿namespace sample5_renderingsprites
+﻿namespace Sample5_RenderingSprites
 {
     public static class Program
     {

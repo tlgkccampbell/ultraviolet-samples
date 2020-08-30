@@ -1,14 +1,14 @@
 using System;
 using System.IO;
-using sample4_contentmanagement.Assets;
-using sample4_contentmanagement.Input;
+using Sample4_ContentManagement.Assets;
+using Sample4_ContentManagement.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.Graphics;
 using Ultraviolet.OpenGL;
 
-namespace sample4_contentmanagement
+namespace Sample4_ContentManagement
 {
     public partial class Game : UltravioletApplication
     {

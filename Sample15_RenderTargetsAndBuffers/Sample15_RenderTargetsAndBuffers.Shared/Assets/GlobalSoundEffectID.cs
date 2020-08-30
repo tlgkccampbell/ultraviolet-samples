@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample15_rendertargetsandbuffers.Assets
+namespace Sample15_RenderTargetsAndBuffers.Assets
 {
     public static class GlobalSoundEffectID
     {

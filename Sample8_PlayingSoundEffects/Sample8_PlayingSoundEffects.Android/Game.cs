@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 
-namespace sample8_playingsoundeffects
+namespace Sample8_PlayingSoundEffects
 {
     [Activity(Label = "Sample 8 - Playing Sound Effects", MainLauncher = true, ConfigurationChanges =
         ConfigChanges.Orientation |

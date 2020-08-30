@@ -1,4 +1,4 @@
-﻿namespace sample6_renderingtext
+﻿namespace Sample6_RenderingText
 {
     public static class Program
     {

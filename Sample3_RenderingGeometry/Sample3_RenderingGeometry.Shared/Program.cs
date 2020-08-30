@@ -1,4 +1,4 @@
-﻿namespace sample3_renderinggeometry
+﻿namespace Sample3_RenderingGeometry
 {
     public static class Program
     {

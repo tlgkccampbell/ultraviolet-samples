@@ -3,7 +3,7 @@ using Ultraviolet.Content;
 using Ultraviolet.Core;
 using Ultraviolet.UI;
 
-namespace sample13_upfadvanced.UI.Screens
+namespace Sample13_UPFAdvanced.UI.Screens
 {
     /// <summary>
     /// Represents the base class for screens in this application.

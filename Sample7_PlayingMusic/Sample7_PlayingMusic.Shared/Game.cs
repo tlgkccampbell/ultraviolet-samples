@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Text;
-using sample7_playingmusic.Assets;
-using sample7_playingmusic.Input;
+using Sample7_PlayingMusic.Assets;
+using Sample7_PlayingMusic.Input;
 using Ultraviolet;
 using Ultraviolet.Audio;
 using Ultraviolet.BASS;
@@ -13,7 +13,7 @@ using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.OpenGL;
 
-namespace sample7_playingmusic
+namespace Sample7_PlayingMusic
 {
     public partial class Game : UltravioletApplication
     {

@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample7_playingmusic</RootNamespace>
-    <AssemblyName>sample7_playingmusic</AssemblyName>
+    <RootNamespace>Sample7_PlayingMusic</RootNamespace>
+    <AssemblyName>Sample7_PlayingMusic</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample7_playingmusic.Shared\sample7_playingmusic.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample7_PlayingMusic.Shared\Sample7_PlayingMusic.Shared.projitems" Label="Shared" />
 
 </Project>

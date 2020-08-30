@@ -1,9 +1,9 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Target Name="UvFindNetCore31GameProject">
     <PropertyGroup>
-      <UltravioletNetCoreProjectPath>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine('..', 'sample12_upf.NETCore3'))))</UltravioletNetCoreProjectPath>
-      <UltravioletBindingExpressionsPath>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine('..', 'sample12_upf.NETCore3', 'bin', 'Debug', 'netcoreapp3.1', 'Ultraviolet.Presentation.CompiledExpressions.dll'))))</UltravioletBindingExpressionsPath>
-      <UltravioletBindingExpressionDestinationPath>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine('..', 'sample12_upf.Android'))))</UltravioletBindingExpressionDestinationPath>
+      <UltravioletNetCoreProjectPath>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine('..', 'Sample12_UPF.NETCore3'))))</UltravioletNetCoreProjectPath>
+      <UltravioletBindingExpressionsPath>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine('..', 'Sample12_UPF.NETCore3', 'bin', 'Debug', 'netcoreapp3.1', 'Ultraviolet.Presentation.CompiledExpressions.dll'))))</UltravioletBindingExpressionsPath>
+      <UltravioletBindingExpressionDestinationPath>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine('..', 'Sample12_UPF.Android'))))</UltravioletBindingExpressionDestinationPath>
     </PropertyGroup>
     <Error Text="Could not locate the .NET Core 3.1 project directory." Condition="!Exists('$(UltravioletNetCoreProjectPath)')"/>
   </Target>

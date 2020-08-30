@@ -1,4 +1,4 @@
-﻿namespace sample11_gamepads
+﻿namespace Sample11_GamePads
 {
     public static class Program
     {

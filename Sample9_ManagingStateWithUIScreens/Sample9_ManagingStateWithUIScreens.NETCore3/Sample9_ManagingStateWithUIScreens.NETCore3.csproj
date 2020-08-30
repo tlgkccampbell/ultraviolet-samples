@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample9_managingstatewithuiscreens</RootNamespace>
-    <AssemblyName>sample9_managingstatewithuiscreens</AssemblyName>
+    <RootNamespace>Sample9_ManagingStateWithUIScreens</RootNamespace>
+    <AssemblyName>Sample9_ManagingStateWithUIScreens</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample9_managingstatewithuiscreens.Shared\sample9_managingstatewithuiscreens.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample9_ManagingStateWithUIScreens.Shared\Sample9_ManagingStateWithUIScreens.Shared.projitems" Label="Shared" />
 
 </Project>

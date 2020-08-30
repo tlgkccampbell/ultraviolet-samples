@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample14_loadingimagedatawithsurfaces.Assets
+namespace Sample14_LoadingImageDataWithSurfaces.Assets
 {
     public static class GlobalFontID
     {

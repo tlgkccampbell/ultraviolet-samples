@@ -2,7 +2,7 @@ using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.OpenGL;
 
-namespace sample1_creatinganapplication
+namespace Sample1_CreatingAnApplication
 {
     public partial class Game : UltravioletApplication
     {

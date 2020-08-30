@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 
-namespace sample1_creatinganapplication
+namespace Sample1_CreatingAnApplication
 {
     [Activity(Label = "Sample 1 - Creating an Application", MainLauncher = true, ConfigurationChanges =
         ConfigChanges.Orientation |

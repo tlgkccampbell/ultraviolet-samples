@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample16_customtextlayoutcommands.Input
+namespace Sample16_CustomTextLayoutCommands.Input
 {
     public static class SampleInput
     {

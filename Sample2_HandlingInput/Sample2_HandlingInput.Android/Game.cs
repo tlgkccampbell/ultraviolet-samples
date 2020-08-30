@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 
-namespace sample2_handlinginput
+namespace Sample2_HandlingInput
 {
     [Activity(Label = "Sample 2 - Handling Input", MainLauncher = true, ConfigurationChanges =
         ConfigChanges.Orientation |

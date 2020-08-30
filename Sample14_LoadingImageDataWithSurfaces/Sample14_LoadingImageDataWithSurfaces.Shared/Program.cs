@@ -1,4 +1,4 @@
-﻿namespace sample14_loadingimagedatawithsurfaces
+﻿namespace Sample14_LoadingImageDataWithSurfaces
 {
     public static class Program
     {

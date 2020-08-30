@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample1_creatinganapplication</RootNamespace>
-    <AssemblyName>sample1_creatinganapplication</AssemblyName>
+    <RootNamespace>Sample1_CreatingAnApplication</RootNamespace>
+    <AssemblyName>Sample1_CreatingAnApplication</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample1_creatinganapplication.Shared\sample1_creatinganapplication.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample1_CreatingAnApplication.Shared\Sample1_CreatingAnApplication.Shared.projitems" Label="Shared" />
 
 </Project>

@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using sample3_renderinggeometry.Input;
+using Sample3_RenderingGeometry.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Graphics;
 using Ultraviolet.OpenGL;
 
-namespace sample3_renderinggeometry
+namespace Sample3_RenderingGeometry
 {
     public partial class Game : UltravioletApplication
     {

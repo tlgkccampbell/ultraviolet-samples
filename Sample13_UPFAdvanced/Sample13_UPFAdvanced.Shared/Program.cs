@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace sample13_upfadvanced
+namespace Sample13_UPFAdvanced
 {
     public static class Program
     {

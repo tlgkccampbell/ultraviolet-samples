@@ -1,4 +1,4 @@
-﻿namespace sample2_handlinginput
+﻿namespace Sample2_HandlingInput
 {
     public static class Program
     {

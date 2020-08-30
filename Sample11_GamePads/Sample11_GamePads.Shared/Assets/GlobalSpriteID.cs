@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample11_gamepads.Assets
+namespace Sample11_GamePads.Assets
 {
     public static class GlobalSpriteID
     {

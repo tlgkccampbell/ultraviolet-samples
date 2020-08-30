@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample8_playingsoundeffects</RootNamespace>
-    <AssemblyName>sample8_playingsoundeffects</AssemblyName>
+    <RootNamespace>Sample8_PlayingSoundEffects</RootNamespace>
+    <AssemblyName>Sample8_PlayingSoundEffects</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample8_playingsoundeffects.Shared\sample8_playingsoundeffects.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample8_PlayingSoundEffects.Shared\Sample8_PlayingSoundEffects.Shared.projitems" Label="Shared" />
 
 </Project>

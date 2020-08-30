@@ -6,7 +6,7 @@
     <SharedGUID>3e1c0c3c-1967-4ac7-be58-636f7c8f9e56</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>sample6_renderingtext</Import_RootNamespace>
+    <Import_RootNamespace>Sample6_RenderingText</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Assets\GlobalFontID.cs" />

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using sample6_renderingtext.Assets;
-using sample6_renderingtext.Input;
+using Sample6_RenderingText.Assets;
+using Sample6_RenderingText.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
@@ -10,7 +10,7 @@ using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.OpenGL;
 
-namespace sample6_renderingtext
+namespace Sample6_RenderingText
 {
     public partial class Game : UltravioletApplication
     {

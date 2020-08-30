@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using sample13_upfadvanced.Input;
-using sample13_upfadvanced.UI;
-using sample13_upfadvanced.UI.Screens;
+using Sample13_UPFAdvanced.Input;
+using Sample13_UPFAdvanced.UI;
+using Sample13_UPFAdvanced.UI.Screens;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
@@ -11,7 +11,7 @@ using Ultraviolet.OpenGL;
 using Ultraviolet.Presentation;
 using Ultraviolet.Presentation.Styles;
 
-namespace sample13_upfadvanced
+namespace Sample13_UPFAdvanced
 {
     public partial class Game : UltravioletApplication
     {

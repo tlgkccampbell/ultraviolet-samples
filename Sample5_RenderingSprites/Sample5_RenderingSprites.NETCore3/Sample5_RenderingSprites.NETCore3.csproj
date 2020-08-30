@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample5_renderingsprites</RootNamespace>
-    <AssemblyName>sample5_renderingsprites</AssemblyName>
+    <RootNamespace>Sample5_RenderingSprites</RootNamespace>
+    <AssemblyName>Sample5_RenderingSprites</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
   </ItemGroup>
 
-  <Import Project="..\sample5_renderingsprites.Shared\sample5_renderingsprites.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample5_RenderingSprites.Shared\Sample5_RenderingSprites.Shared.projitems" Label="Shared" />
 
 </Project>

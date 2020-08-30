@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample16_customtextlayoutcommands</RootNamespace>
-    <AssemblyName>sample16_customtextlayoutcommands</AssemblyName>
+    <RootNamespace>Sample16_CustomTextLayoutCommands</RootNamespace>
+    <AssemblyName>Sample16_CustomTextLayoutCommands</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
   </ItemGroup>
 
-  <Import Project="..\sample16_customtextlayoutcommands.Shared\sample16_customtextlayoutcommands.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample16_CustomTextLayoutCommands.Shared\Sample16_CustomTextLayoutCommands.Shared.projitems" Label="Shared" />
 
 </Project>

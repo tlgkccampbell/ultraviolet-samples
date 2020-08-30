@@ -1,6 +1,6 @@
 ﻿using Ultraviolet.Content;
 
-namespace sample7_playingmusic.Assets
+namespace Sample7_PlayingMusic.Assets
 {
     public static class GlobalSongID
     {

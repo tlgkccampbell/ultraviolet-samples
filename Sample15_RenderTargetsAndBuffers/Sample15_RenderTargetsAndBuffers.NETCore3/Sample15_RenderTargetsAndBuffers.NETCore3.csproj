@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>sample15_rendertargetsandbuffers</RootNamespace>
-    <AssemblyName>sample15_rendertargetsandbuffers</AssemblyName>
+    <RootNamespace>Sample15_RenderTargetsAndBuffers</RootNamespace>
+    <AssemblyName>Sample15_RenderTargetsAndBuffers</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
   </ItemGroup>
 
-  <Import Project="..\sample15_rendertargetsandbuffers.Shared\sample15_rendertargetsandbuffers.Shared.projitems" Label="Shared" />
+  <Import Project="..\Sample15_RenderTargetsAndBuffers.Shared\Sample15_RenderTargetsAndBuffers.Shared.projitems" Label="Shared" />
 
 </Project>

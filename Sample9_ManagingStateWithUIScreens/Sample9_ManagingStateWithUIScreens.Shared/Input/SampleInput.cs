@@ -2,7 +2,7 @@
 using Ultraviolet.Core;
 using Ultraviolet.Input;
 
-namespace sample9_managingstatewithuiscreens.Input
+namespace Sample9_ManagingStateWithUIScreens.Input
 {
     public static class SampleInput
     {

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <UIPanelDefinition>
   <StyleSheet>GamePlayScreenStyles</StyleSheet>
-  <View ViewModelType="sample13_upfadvanced.UI.Screens.GamePlayViewModel, sample13_upfadvanced">
+  <View ViewModelType="Sample13_UPFAdvanced.UI.Screens.GamePlayViewModel, Sample13_UPFAdvanced">
     <Grid Name="container" Focusable="true" KeyDown="HandleKeyDown" View.Opened="HandleViewOpened">
       <Image Name="container-background"/>
 

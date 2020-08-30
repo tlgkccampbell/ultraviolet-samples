@@ -2,7 +2,7 @@
 using Ultraviolet.Content;
 using Ultraviolet.UI;
 
-namespace sample12_upf.UI.Screens
+namespace Sample12_UPF.UI.Screens
 {
     public class ExampleScreen : UIScreen
     {

@@ -4,7 +4,7 @@ using Ultraviolet.Core;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 
-namespace sample16_customtextlayoutcommands
+namespace Sample16_CustomTextLayoutCommands
 {
     /// <summary>
     /// Represents a block of text which is revealed character-by-character as time passes.

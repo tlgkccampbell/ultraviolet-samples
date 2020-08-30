@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using sample15_rendertargetsandbuffers.Assets;
-using sample15_rendertargetsandbuffers.Input;
+using Sample15_RenderTargetsAndBuffers.Assets;
+using Sample15_RenderTargetsAndBuffers.Input;
 using Ultraviolet;
 using Ultraviolet.Audio;
 using Ultraviolet.BASS;
@@ -11,7 +11,7 @@ using Ultraviolet.Graphics;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.OpenGL;
 
-namespace sample15_rendertargetsandbuffers
+namespace Sample15_RenderTargetsAndBuffers
 {
     public partial class Game : UltravioletApplication
     {

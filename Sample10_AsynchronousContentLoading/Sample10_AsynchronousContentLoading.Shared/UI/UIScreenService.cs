@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using sample10_asynchronouscontentloading.UI.Screens;
+using Sample10_AsynchronousContentLoading.UI.Screens;
 using Ultraviolet.Content;
 using Ultraviolet.UI;
 
-namespace sample10_asynchronouscontentloading.UI
+namespace Sample10_AsynchronousContentLoading.UI
 {
     /// <summary>
     /// Represents a service which provides instances of UI screen types upon request.

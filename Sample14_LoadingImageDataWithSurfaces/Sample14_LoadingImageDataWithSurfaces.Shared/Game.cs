@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using sample14_loadingimagedatawithsurfaces.Assets;
-using sample14_loadingimagedatawithsurfaces.Input;
+using Sample14_LoadingImageDataWithSurfaces.Assets;
+using Sample14_LoadingImageDataWithSurfaces.Input;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
@@ -9,7 +9,7 @@ using Ultraviolet.Graphics;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.OpenGL;
 
-namespace sample14_loadingimagedatawithsurfaces
+namespace Sample14_LoadingImageDataWithSurfaces
 {
     public partial class Game : UltravioletApplication
     {

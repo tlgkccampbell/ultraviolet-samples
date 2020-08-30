@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using sample9_managingstatewithuiscreens.UI.Screens;
+using Sample9_ManagingStateWithUIScreens.UI.Screens;
 using Ultraviolet.Content;
 using Ultraviolet.UI;
 
-namespace sample9_managingstatewithuiscreens.UI
+namespace Sample9_ManagingStateWithUIScreens.UI
 {
     /// <summary>
     /// Represents a service which provides instances of UI screen types upon request.

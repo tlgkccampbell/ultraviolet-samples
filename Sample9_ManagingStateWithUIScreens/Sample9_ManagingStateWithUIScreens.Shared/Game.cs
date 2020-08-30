@@ -1,15 +1,15 @@
 using System;
 using System.IO;
-using sample9_managingstatewithuiscreens.Assets;
-using sample9_managingstatewithuiscreens.Input;
-using sample9_managingstatewithuiscreens.UI;
-using sample9_managingstatewithuiscreens.UI.Screens;
+using Sample9_ManagingStateWithUIScreens.Assets;
+using Sample9_ManagingStateWithUIScreens.Input;
+using Sample9_ManagingStateWithUIScreens.UI;
+using Sample9_ManagingStateWithUIScreens.UI.Screens;
 using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.OpenGL;
 
-namespace sample9_managingstatewithuiscreens
+namespace Sample9_ManagingStateWithUIScreens
 {
     public partial class Game : UltravioletApplication
     {
