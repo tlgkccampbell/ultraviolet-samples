@@ -16,13 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ultraviolet" Version="2020.4.0.4278" />
-    <PackageReference Include="Ultraviolet.BASS" Version="2020.4.0.4278" />
-    <PackageReference Include="Ultraviolet.FreeType2" Version="2020.4.0.4278" />
-    <PackageReference Include="Ultraviolet.OpenGL" Version="2020.4.0.4278" />
-    <PackageReference Include="Ultraviolet.Presentation" Version="2020.4.0.4278" />
-    <PackageReference Include="Ultraviolet.Presentation.Compiler" Version="2020.4.0.4278" />
-    <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4278" />
+    <PackageReference Include="Ultraviolet" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.BASS" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.FreeType2" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.OpenGL" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.Presentation" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.Presentation.Compiler" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.SDL2" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.9.0.4388" />
   </ItemGroup>
 
   <Import Project="..\Sample12_UPF.Shared\Sample12_UPF.Shared.projitems" Label="Shared" />

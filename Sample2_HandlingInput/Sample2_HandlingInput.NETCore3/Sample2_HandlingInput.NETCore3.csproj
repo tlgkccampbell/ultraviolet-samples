@@ -16,11 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ultraviolet" Version="2020.4.0.4287" />
-    <PackageReference Include="Ultraviolet.BASS" Version="2020.4.0.4287" />
-    <PackageReference Include="Ultraviolet.FreeType2" Version="2020.4.0.4287" />
-    <PackageReference Include="Ultraviolet.OpenGL" Version="2020.4.0.4287" />
-    <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.4.0.4287" />
+    <PackageReference Include="Ultraviolet" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.BASS" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.FreeType2" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.OpenGL" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.SDL2" Version="2020.9.0.4388" />
+    <PackageReference Include="Ultraviolet.Shims.NETCore3" Version="2020.9.0.4388" />
   </ItemGroup>
 
   <Import Project="..\Sample2_HandlingInput.Shared\Sample2_HandlingInput.Shared.projitems" Label="Shared" />

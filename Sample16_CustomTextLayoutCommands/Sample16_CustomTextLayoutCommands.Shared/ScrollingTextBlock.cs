@@ -58,7 +58,7 @@ namespace Sample16_CustomTextLayoutCommands
             this.textLayoutCommands = new TextLayoutCommandStream();
 
             this.Text = text;
-            this.TextRenderer.Parse(text, textParserTokens);
+            this.TextRenderer.Parser.Parse(text, textParserTokens);
             this.TextRenderer.CalculateLayout(Text, textLayoutCommands,
                 new TextLayoutSettings(Font, width, height, TextFlags.Standard));
 
@@ -74,7 +74,7 @@ namespace Sample16_CustomTextLayoutCommands
             Contract.Require(text, nameof(text));
 
             this.Text = text;
-            this.TextRenderer.Parse(text, textParserTokens);
+            this.TextRenderer.Parser.Parse(text, textParserTokens);
             this.TextRenderer.CalculateLayout(Text, textLayoutCommands,
                 new TextLayoutSettings(Font, Width, Height, TextFlags.Standard));
 

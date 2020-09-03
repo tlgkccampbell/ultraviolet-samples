@@ -9,6 +9,7 @@ using Ultraviolet.Graphics;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.OpenGL;
+using Ultraviolet.SDL2;
 
 namespace Sample6_RenderingText
 {
@@ -20,10 +21,11 @@ namespace Sample6_RenderingText
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()
@@ -51,17 +53,17 @@ namespace Sample6_RenderingText
             this.spriteBatch = SpriteBatch.Create();
             this.textRenderer = new TextRenderer();
 
-            this.textRenderer.RegisterFont("segoe", this.spriteFontSegoe);
-            this.textRenderer.RegisterFont("garamond", this.spriteFontGaramond);
+            this.textRenderer.LayoutEngine.RegisterFont("segoe", this.spriteFontSegoe);
+            this.textRenderer.LayoutEngine.RegisterFont("garamond", this.spriteFontGaramond);
 
-            this.textRenderer.RegisterStyle("preset1", new TextStyle(spriteFontGaramond, true, null, Color.Lime));
-            this.textRenderer.RegisterStyle("preset2", new TextStyle(spriteFontSegoe, null, true, Color.Red));
+            this.textRenderer.LayoutEngine.RegisterStyle("preset1", new TextStyle(spriteFontGaramond, true, null, Color.Lime));
+            this.textRenderer.LayoutEngine.RegisterStyle("preset2", new TextStyle(spriteFontSegoe, null, true, Color.Red));
 
             var spriteOK = this.content.Load<Sprite>(GlobalSpriteID.OK);
             var spriteCancel = this.content.Load<Sprite>(GlobalSpriteID.Cancel);
 
-            this.textRenderer.RegisterIcon("ok", spriteOK[0]);
-            this.textRenderer.RegisterIcon("cancel", spriteCancel[0]);
+            this.textRenderer.LayoutEngine.RegisterIcon("ok", spriteOK[0]);
+            this.textRenderer.LayoutEngine.RegisterIcon("cancel", spriteCancel[0]);
 
             base.OnLoadingContent();
         }

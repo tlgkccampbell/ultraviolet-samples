@@ -9,6 +9,7 @@ using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.OpenGL;
+using Ultraviolet.SDL2;
 
 namespace Sample10_AsynchronousContentLoading
 {
@@ -20,10 +21,11 @@ namespace Sample10_AsynchronousContentLoading
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()

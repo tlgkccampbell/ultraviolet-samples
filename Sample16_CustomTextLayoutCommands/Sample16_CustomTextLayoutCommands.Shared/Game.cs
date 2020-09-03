@@ -10,6 +10,7 @@ using Ultraviolet.Graphics;
 using Ultraviolet.Graphics.Graphics2D;
 using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.OpenGL;
+using Ultraviolet.SDL2;
 
 namespace Sample16_CustomTextLayoutCommands
 {
@@ -21,10 +22,11 @@ namespace Sample16_CustomTextLayoutCommands
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
             
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()

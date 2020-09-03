@@ -10,6 +10,7 @@ using Ultraviolet.FreeType2;
 using Ultraviolet.OpenGL;
 using Ultraviolet.Presentation;
 using Ultraviolet.Presentation.Styles;
+using Ultraviolet.SDL2;
 
 namespace Sample13_UPFAdvanced
 {
@@ -27,14 +28,15 @@ namespace Sample13_UPFAdvanced
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
             configuration.EnableServiceMode = ShouldRunInServiceMode();
             configuration.WatchViewFilesForChanges = ShouldDynamicallyReloadContent();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
             configuration.Plugins.Add(new FreeTypeFontPlugin());
             configuration.Plugins.Add(new PresentationFoundationPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()

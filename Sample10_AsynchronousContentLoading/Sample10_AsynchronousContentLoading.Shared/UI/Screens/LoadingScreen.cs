@@ -24,7 +24,7 @@ namespace Sample10_AsynchronousContentLoading.UI.Screens
             this.spinnerSprite = LocalContent.Load<Sprite>("Spinner");
             this.loader = new AsynchronousContentLoader();
 
-            this.textRenderer.RegisterIcon("spinner", spinnerSprite[0]);
+            this.textRenderer.LayoutEngine.RegisterIcon("spinner", spinnerSprite[0]);
 
             UpdateMessage(String.Empty);
         }

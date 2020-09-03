@@ -5,6 +5,7 @@ using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Graphics;
 using Ultraviolet.OpenGL;
+using Ultraviolet.SDL2;
 
 namespace Sample3_RenderingGeometry
 {
@@ -16,10 +17,11 @@ namespace Sample3_RenderingGeometry
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()
@@ -41,7 +43,7 @@ namespace Sample3_RenderingGeometry
             this.effect = BasicEffect.Create();
 
             this.vbuffer = VertexBuffer.Create<VertexPositionColor>(3);
-            this.vbuffer.SetData<VertexPositionColor>(new[]
+            this.vbuffer.SetData(new[]
             {
                 new VertexPositionColor(new Vector3(0, 1, 0), Color.Red),
                 new VertexPositionColor(new Vector3(1, -1, 0), Color.Lime),

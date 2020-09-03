@@ -1,4 +1,5 @@
 using System;
+using Ultraviolet.SDL2;
 using System.IO;
 using Sample2_HandlingInput.Input;
 using Ultraviolet;
@@ -15,10 +16,11 @@ namespace Sample2_HandlingInput
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnLoadingContent()

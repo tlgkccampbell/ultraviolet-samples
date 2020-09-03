@@ -12,6 +12,7 @@ using Ultraviolet.Graphics.Graphics2D.Text;
 using Ultraviolet.Input;
 using Ultraviolet.OpenGL;
 using Sample11_GamePads.Input;
+using Ultraviolet.SDL2;
 
 namespace Sample11_GamePads
 {
@@ -23,10 +24,11 @@ namespace Sample11_GamePads
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()
@@ -58,7 +60,7 @@ namespace Sample11_GamePads
 
             for (int i = 0; i < xbox360ControllerIcons.AnimationCount; i++)
             {
-                this.textRenderer.RegisterIcon(
+                this.textRenderer.LayoutEngine.RegisterIcon(
                     xbox360ControllerIcons[i].Name,
                     xbox360ControllerIcons[i], 32, 32);
             }

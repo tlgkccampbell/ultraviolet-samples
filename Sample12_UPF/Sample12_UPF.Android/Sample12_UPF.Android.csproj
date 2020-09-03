@@ -117,22 +117,25 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Ultraviolet">
-      <Version>2020.4.0.4278</Version>
+      <Version>2020.9.0.4388</Version>
     </PackageReference>
     <PackageReference Include="Ultraviolet.BASS">
-      <Version>2020.4.0.4278</Version>
+      <Version>2020.9.0.4388</Version>
     </PackageReference>
     <PackageReference Include="Ultraviolet.FreeType2">
-      <Version>2020.4.0.4278</Version>
+      <Version>2020.9.0.4388</Version>
     </PackageReference>
     <PackageReference Include="Ultraviolet.OpenGL">
-      <Version>2020.4.0.4278</Version>
+      <Version>2020.9.0.4388</Version>
     </PackageReference>
     <PackageReference Include="Ultraviolet.Presentation">
-      <Version>2020.4.0.4278</Version>
+      <Version>2020.9.0.4388</Version>
+    </PackageReference>
+    <PackageReference Include="Ultraviolet.SDL2">
+      <Version>2020.9.0.4388</Version>
     </PackageReference>
     <PackageReference Include="Ultraviolet.Shims.Android">
-      <Version>2020.4.0.4278</Version>
+      <Version>2020.9.0.4388</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.3" />

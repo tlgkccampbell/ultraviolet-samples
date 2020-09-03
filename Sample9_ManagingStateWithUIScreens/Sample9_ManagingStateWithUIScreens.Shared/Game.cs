@@ -8,6 +8,7 @@ using Ultraviolet;
 using Ultraviolet.BASS;
 using Ultraviolet.Content;
 using Ultraviolet.OpenGL;
+using Ultraviolet.SDL2;
 
 namespace Sample9_ManagingStateWithUIScreens
 {
@@ -19,10 +20,11 @@ namespace Sample9_ManagingStateWithUIScreens
 
         protected override UltravioletContext OnCreatingUltravioletContext()
         {
-            var configuration = new OpenGLUltravioletConfiguration();
+            var configuration = new SDL2UltravioletConfiguration();
+            configuration.Plugins.Add(new OpenGLGraphicsPlugin());
             configuration.Plugins.Add(new BASSAudioPlugin());
 
-            return new OpenGLUltravioletContext(this, configuration);
+            return new SDL2UltravioletContext(this, configuration);
         }
 
         protected override void OnInitialized()
